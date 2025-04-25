@@ -27,7 +27,7 @@
     ],
     "postCreateCommand": "/bin/bash ./.devcontainer/post-create.sh",
     "remoteEnv": {
-        "PATH": "${containerEnv:PATH}:/opt/conda/envs/bitnet-cpp/bin",
+        "PATH": "${containerEnv:PATH}:/opt/conda/envs/bitnet-cpp/bin:/home/vscode/.local/bin",
         "CC": "/usr/bin/clang",
         "CXX": "/usr/bin/clang++"
     }
